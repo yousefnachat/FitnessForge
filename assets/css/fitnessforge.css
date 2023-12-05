@@ -364,7 +364,6 @@ section#hero {
 }
 .clothing-section {
   width: 80%;
-  background: rgba(184, 184, 184, 0.16);
   border-radius: 2em;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(15px);
@@ -384,12 +383,15 @@ section#hero {
 }
 .img-changement button {
   width: 10rem;
-  background-color: red;
+  background-color: rgb(13, 201, 154);
 }
 .section4 {
   justify-content: center;
   background-color: black !important;
   opacity: 90%;
+}
+.section4 p{
+  text-transform: capitalize !important;
 }
 .section4 .img-changement {
   display: flex;
@@ -399,8 +401,14 @@ section#hero {
 }
 .section4 .img-changement button {
   width: 10rem;
-  background-color: red;
+  background-color: rgb(13, 201, 154);
 }
 .footer-home {
   border-radius: 0;
+}
+.section-card{
+  background: rgba(184, 184, 184, 0.16);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px 10px;
 }
